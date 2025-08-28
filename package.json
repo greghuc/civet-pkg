@@ -1,3 +1,7 @@
 {
-  "name": "civet-pkg"
+  "name": "civet-pkg",
+  "type": "module",
+  "exports": {
+    "./lib/math": "./lib/math.civet"
+  }
 }
